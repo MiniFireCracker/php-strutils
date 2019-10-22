@@ -32,10 +32,11 @@
 
         public function uglify()
         {
-            echo $this->_str->bold()
-                            ->italic()
-                            ->underline()
-                            ->capitalize();
+           // echo '(' . $this->_str . ')'->bold()
+            return $this->_str->bold()
+                                ->italic()
+                                ->underline()
+                                ->capitalize();
         }
 
     }
